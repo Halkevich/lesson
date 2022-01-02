@@ -1,0 +1,289 @@
+@media (max-width: 1440px) {
+    .wrapper{
+        width: 90%;
+    }
+
+   
+    .projects_content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        justify-items: center;
+    }
+
+  
+
+   
+}
+
+@media (max-width: 1024px) {
+  .slider{
+      display: none;
+
+  }
+  .arrow{ display: none;
+
+  }
+
+  .oskar{
+    animation: none;
+}
+
+.arka{
+    animation: none;
+}
+
+.gold{
+    animation: none;
+}
+
+.balet{
+    animation: none;
+}
+
+
+  
+  .promo_info{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      justify-content: center;
+  }
+      
+    .stars{
+        width: 800px;
+    }
+    .projects_content{
+        animation: none;
+    }
+
+    .partners_content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    
+    .footer_text{
+        display: flex; 
+    }
+
+    .footer_contacts_content p{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
+     
+
+    .contant{
+        display: none
+    }
+
+    .theatre_info{
+        display: grid;
+        padding:  0 30px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: end;
+    }
+}
+
+@media (max-width: 992px) {
+   .button{ 
+       background-color: #D1A954;
+}
+
+.theatre_info{
+    display: grid;
+        padding:  0 30px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+}
+
+.gold{
+    display: none;
+
+}
+
+.balet{
+    display: none;
+}
+
+.stars{
+
+    width: 700px;
+
+}
+
+.best_theatre{
+    font-size: 29px;
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: column-reverse;
+}   
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+        width: 100%;
+    }
+
+    .header{
+        max-width: 900px;
+    }
+
+    .promo_info{
+        max-width: 400px;
+    }
+  
+    .footer_contacts_content h3{
+        
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer_contacts_content p{
+        display: flex;
+        align-items: center;
+    }
+
+    .best_theatre{
+        max-width: 400px;
+    }
+
+    .footer_bot_info{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .best_theatre{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .date{
+        font-size: 20px;
+    }
+    
+    .nav-bar{
+        display: none;
+    }
+
+    .menu-list{
+        display: none;
+    }
+    
+  .btn-menu{
+    display: block;
+}
+.projects_content{
+    overflow: hidden;
+    justify-items: center;
+}
+.stars{
+    width: 450px;
+}
+textarea{
+    width: 180px;
+
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.oskar{
+    animation: none;
+    width: 300px;
+   
+}
+
+.oskar h3{
+    display: none;
+}
+.oskar p{
+    display: none;
+}
+
+.arka h3{
+    display: none;
+}
+
+.arka p{
+    display: none;
+}
+
+.arka{
+    animation: none;
+    width: 300px;
+}
+.contant_info{
+    margin-bottom: 40px;
+
+
+}
+
+.field{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+}
+
+@media (max-width: 600px){
+
+    .theatre_info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .contant_info h5{
+        text-align: center;
+    }
+
+    
+}
+@media (max-width: 597px){
+.partners_content{
+        overflow: hidden;
+    }
+
+    .field{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 470px){
+    .wrapper{
+        width: 100%;
+    }
+
+    .header{
+        width: 600;
+    }
+
+    .promo_info h1{
+        font-size: 40px;
+       
+    }
+
+
+   .stars{
+       display: none;
+   }
+  
+
+    textarea{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
